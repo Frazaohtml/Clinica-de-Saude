@@ -13,24 +13,3 @@ requiredFiles = [".replit", "replit.nix"]
 [deployment]
 run = ["python3", "main.py"]
 deploymentTarget = "cloudrun"
-
-[workflows]
-runButton = "Run Server"
-
-[[workflows.workflow]]
-name = "Run Server"
-author = 38131167
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "cd frontend && node script.js"
-
-[[workflows.workflow]]
-name = "Run Server"
-author = 38131167
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "cd frontend && node script.js"
