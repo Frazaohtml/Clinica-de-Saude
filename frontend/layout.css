@@ -1,0 +1,71 @@
+:root {
+  --verde-agua: #000000;
+  --azul-marinho: #033b72;
+  --cinza-claro: #f5f5f5;
+  --branco: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--cinza-claro);
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--azul);
+  color: var(--branco);
+  padding: 60px 0;
+  text-align: center;
+  background-image: url('imagens/clinica.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 2.8rem;
+  background-color: tranparent;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+section {
+  background-color: var(--branco);
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(255, 255, 255, 0.1);
+  border-left: 50px solid var(--azul-marinho);
+}
+
+h2 {
+  color: var(--azul-marinho);
+}
+
+button {
+  background-color: var(--azul-marinho);
+  color: var(--branco);
+  border: none;
+  padding: 10px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--verde);
+}
+footer p {
+  color: #ffffff; /* Ou qualquer cor que você quiser */
+}
+
+

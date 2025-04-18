@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Dra. Ana Silva",
+    "especialidade": "Cardiologia",
+    "disponivel": true
+  },
+  {
+    "nome": "Dr. João Costa",
+    "especialidade": "Dermatologia",
+    "disponivel": true
+  },
+  {
+    "nome": "Dra. Maria Oliveira",
+    "especialidade": "Cardiologia",
+    "disponivel": false
+  }
+]

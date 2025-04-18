@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clínica Saúde</title>
+  <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,13 +15,22 @@
     <p>Seu bem-estar é nossa prioridade. Conheça nossos serviços.</p>
   </header>
 
-  <!-- Imagens dos serviços -->
-  <section class="servicos">
-    <h2>Nossos Serviços</h2>
-    <div class="servicos-lista">
-      <img src="imagem1.jpg" alt="Exame de Sangue">
-      <img src="imagem2.jpg" alt="Consultoria Nutricional">
-    </div>
+  <!-- Conteúdo principal -->
+  <div class="container">
+    <section>
+      <h2>Agende sua consulta</h2>
+      <!-- Aqui vai o formulário de agendamento -->
+    </section>
+
+    <section>
+      <h2>Consultar agendamentos</h2>
+      <!-- Aqui vai a área de consulta por CPF -->
+    </section>
+  </div>
+
+  <!-- Imagem dos serviços -->
+  <section class="imagem-destaque">
+    <img src="imagens/nossos-servicos.png" alt="Imagem de Nossos Serviços">
   </section>
 
   <!-- Formulário de Inscrição -->
@@ -33,6 +43,7 @@
       <input type="text" placeholder="Estado" required>
       <button type="submit">Enviar</button>
     </form>
+
   </section>
 
   <footer>
@@ -42,3 +53,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+

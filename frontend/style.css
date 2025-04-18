@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #003366;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: rgba(255, 255, 255, 0.2); /* Cor clara por cima da imagem */
+}
+
+/* Fundo com imagem desfocada */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('imagens/fundo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(2px) brightness(0.9);
+  z-index: -2;
+}
+
+/* Conteúdo geral */
+.container {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+/* Cabeçalho principal */
+header {
+  background: rgba(2, 12, 54, 0.8); /* azul escuro translúcido */
+  padding: 20px;
+  border-bottom: 2px solid #047c64;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: branco;
+}
+
+/* IMAGEM DESTAQUE */
+.imagem-destaque {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.imagem-destaque img {
+  width: 100%;
+  max-width: 500px; /* ajuste conforme preferir */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.texto-sobre-imagem {
+  position: absolute;
+  bottom: 10px;
+  right: 55px;
+  color: #000;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 8px 12px;
+  border-radius: 5px;
+}
