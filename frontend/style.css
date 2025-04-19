@@ -51,7 +51,7 @@ header h1 {
 
 .imagem-destaque img {
   width: 100%;
-  max-width: 500px; /* ajuste conforme preferir */
+  max-width: 500px; 
   height: auto;
   display: block;
   margin: 0 auto;
